@@ -74,7 +74,7 @@ a:hover { text-decoration: underline; }
 .markdown-body em { font-style: italic; }
 .markdown-body a { text-underline-offset: 0.18em; }
 .markdown-body sup { line-height: 0; }
-.markdown-body .footnote { font-size: 0.78em; }
+.markdown-body .footnote { font-size: 0.67em; }
 .markdown-body sup[id^="fnref"] { font-size: 1em; }
 .markdown-body sup[id^="fnref"] a.footnote {
   font-size: 0.95em;
