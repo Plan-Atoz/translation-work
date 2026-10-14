@@ -7,6 +7,7 @@ markdown: kramdown
 permalink: pretty
 
 kramdown:
+  smart_quotes: ["apos", "apos", "quot", "quot"]
   footnote_nr: 1
   footnote_backlink: "↩"
   footnote_backlink_inline: true
