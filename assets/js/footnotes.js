@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const note = target.cloneNode(true);
     note.querySelectorAll("a[href^='#fnref']").forEach((backlink) => backlink.remove());
-    const content = note.textContent.replace(/\s+/g, " ").trim();
 
     const preview = document.createElement("span");
     preview.className = "footnote-preview";
@@ -15,7 +14,17 @@ document.addEventListener("DOMContentLoaded", () => {
     const numberLink = document.createElement("a");
     numberLink.href = link.getAttribute("href");
     numberLink.textContent = link.textContent.trim();
-    preview.append(numberLink, "] ", document.createTextNode(content));
+    preview.append(numberLink, "] ");
+
+    // Copy the footnote's HTML so links and inline formatting remain functional.
+    Array.from(note.childNodes).forEach((node) => {
+      if (node.nodeType === Node.ELEMENT_NODE && node.tagName === "P") {
+        while (node.firstChild) preview.appendChild(node.firstChild);
+        preview.append(" ");
+      } else {
+        preview.appendChild(node);
+      }
+    });
 
     link.parentElement.appendChild(preview);
     link.parentElement.classList.add("has-footnote-preview");
