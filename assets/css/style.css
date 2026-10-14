@@ -237,3 +237,6 @@ pre code { padding: 0; background: transparent; }
   .page-content { width: calc(100% - 32px); margin-top: 30px; }
   .markdown-body { font-size: 15px; }
 }
+
+/* Keep quotation punctuation upright even inside italic text. */
+.markdown-body .quote-punctuation { font-style: normal !important; }
