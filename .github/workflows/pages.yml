@@ -22,6 +22,13 @@ jobs:
         uses: actions/checkout@v4
       - name: Configure Pages
         uses: actions/configure-pages@v5
+      - name: Prepare original Markdown as a native Jekyll page
+        shell: bash
+        run: |
+          {
+            printf '%s\\n' '---' 'layout: default' 'title: "마흐노주의 운동의 역사 — Peter Arshinov"' 'description: "Peter Arshinov, History of the Makhnovist Movement (1918–1921) 한국어 번역"' 'permalink: /translation/' '---' ''
+            cat "arshinov/makhno-movement/History of the Makhnovist Movement (Korean).md"
+          } > translation.md
       - name: Build site with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
