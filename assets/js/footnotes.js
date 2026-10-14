@@ -10,11 +10,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const preview = document.createElement("span");
     preview.className = "footnote-preview";
 
-    preview.append("[");
     const numberLink = document.createElement("a");
     numberLink.href = link.getAttribute("href");
-    numberLink.textContent = link.textContent.trim();
-    preview.append(numberLink, "] ");
+    numberLink.textContent = `[${link.textContent.trim()}]`;
+    preview.append(numberLink, " ");
 
     // Copy the footnote's HTML so links and inline formatting remain functional.
     Array.from(note.childNodes).forEach((node) => {
