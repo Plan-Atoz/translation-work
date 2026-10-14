@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const numberLink = document.createElement("a");
     numberLink.href = link.getAttribute("href");
     numberLink.textContent = link.textContent.trim();
-    preview.append(numberLink, "] ", document.createTextNode(`(${content})`));
+    preview.append(numberLink, "] ", document.createTextNode(content));
 
     link.parentElement.appendChild(preview);
     link.parentElement.classList.add("has-footnote-preview");
