@@ -26,7 +26,7 @@ jobs:
         shell: bash
         run: |
           {
-            printf '%s\\n' '---' 'layout: default' 'title: "마흐노주의 운동의 역사 — Peter Arshinov"' 'description: "Peter Arshinov, History of the Makhnovist Movement (1918–1921) 한국어 번역"' 'permalink: /translation/' '---' ''
+            printf '%s\n' '---' 'layout: default' 'title: "마흐노주의 운동의 역사 — Peter Arshinov"' 'description: "Peter Arshinov, History of the Makhnovist Movement (1918–1921) 한국어 번역"' 'permalink: /translation/' '---' ''
             cat "arshinov/makhno-movement/History of the Makhnovist Movement (Korean).md"
           } > translation.md
       - name: Build site with Jekyll
