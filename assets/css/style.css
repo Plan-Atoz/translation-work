@@ -101,7 +101,6 @@ a:hover { text-decoration: underline; }
   line-height: 1.55;
   white-space: normal;
   overflow-wrap: anywhere;
-  pointer-events: none;
 }
 .markdown-body .footnote-preview.is-visible { display: block; }
 
