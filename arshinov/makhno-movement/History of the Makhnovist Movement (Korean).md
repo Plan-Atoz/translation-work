@@ -1,9 +1,8 @@
-> ***Peter Arshinov—History of the Makhnovist Movement (1918–1921)***
-
 *마흐노 운동사 원어가 아닌 영어 역본을 번역한 것입니다.*
 *로레인 & 프레디 펄먼 부부에게 감사드립니다.*
 
-# 마흐노주의 운동의 역사
+> ***Peter Arshinov—History of the Makhnovist Movement (1918–1921)***
+> # 마흐노주의 운동의 역사
 
 #### 목차
 [1.](#section-1) 볼린의 서문.  
