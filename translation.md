@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "마흐노주의 운동의 역사 — Peter Arshinov"
+title: "마흐노주의자 운동의 역사"
 description: "Peter Arshinov, History of the Makhnovist Movement (1918–1921) 한국어 번역"
 permalink: /translation/
 ---
