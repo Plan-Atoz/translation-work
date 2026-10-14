@@ -75,6 +75,12 @@ a:hover { text-decoration: underline; }
 .markdown-body a { text-underline-offset: 0.18em; }
 .markdown-body sup { line-height: 0; }
 .markdown-body .footnote { font-size: 0.78em; }
+.markdown-body sup[id^="fnref"] { font-size: 1em; }
+.markdown-body sup[id^="fnref"] a.footnote {
+  font-size: 0.95em;
+}
+.markdown-body sup[id^="fnref"] a.footnote::before { content: "["; }
+.markdown-body sup[id^="fnref"] a.footnote::after { content: "]"; }
 .markdown-body .footnotes { scroll-margin-top: 1rem; }
 
 .markdown-body h1, .markdown-body h2, .markdown-body h3,
