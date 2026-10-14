@@ -27,4 +27,36 @@ document.addEventListener("DOMContentLoaded", () => {
     link.addEventListener("focus", show);
     link.addEventListener("blur", hide);
   });
+  const root = document.querySelector(".markdown-body");
+  if (root) {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+      acceptNode(node) {
+        if (!/[\u0022\u0027\u2018\u2019\u201C\u201D]/.test(node.nodeValue)) {
+          return NodeFilter.FILTER_REJECT;
+        }
+        if (node.parentElement.closest("script, style, .quote-punctuation")) {
+          return NodeFilter.FILTER_REJECT;
+        }
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach((node) => {
+      const parts = node.nodeValue.split(/([\u0022\u0027\u2018\u2019\u201C\u201D])/g);
+      if (parts.length < 2) return;
+      const fragment = document.createDocumentFragment();
+      parts.forEach((part) => {
+        if (/^[\u0022\u0027\u2018\u2019\u201C\u201D]$/.test(part)) {
+          const span = document.createElement("span");
+          span.className = "quote-punctuation";
+          span.textContent = part;
+          fragment.appendChild(span);
+        } else if (part) {
+          fragment.appendChild(document.createTextNode(part));
+        }
+      });
+      node.replaceWith(fragment);
+    });
+  }
 });
