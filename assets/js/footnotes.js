@@ -50,6 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (/^[\u0022\u0027\u2018\u2019\u201C\u201D]$/.test(part)) {
           const span = document.createElement("span");
           span.className = "quote-punctuation";
+          span.style.setProperty("font-style", "normal", "important");
           span.textContent = part;
           fragment.appendChild(span);
         } else if (part) {
