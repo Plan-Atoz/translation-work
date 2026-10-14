@@ -5,12 +5,11 @@ description: "Peter Arshinov, History of the Makhnovist Movement (1918–1921) �
 permalink: /translation/
 ---
 
-> ***Peter Arshinov—History of the Makhnovist Movement (1918–1921)***
-
 *마흐노 운동사 원어가 아닌 영어 역본을 번역한 것입니다.*
 *로레인 & 프레디 펄먼 부부에게 감사드립니다.*
 
-# 마흐노주의 운동의 역사
+> ***Peter Arshinov—History of the Makhnovist Movement (1918–1921)***
+> # 마흐노주의 운동의 역사
 
 #### 목차
 [1.](#section-1) 볼린의 서문.  
@@ -18,7 +17,6 @@ permalink: /translation/
 ...
 
 * * *
-
 ## <a id="section-1">1.</a> 볼린의 서문.
 
 이 책을 펼쳐 든 독자라면 가장 먼저 이 책이 과연 어떤 성격의 글인지 알고 싶을 것입니다. 진지하고 양심적인 분석의 글인가, 아니면 황당무계하고 무책임한 날조의 글인가? 최소한 여기 등장하는 사건과 사실, 그리고 자료에 대해서만큼은 저자를 신뢰해도 좋은가? 저자는 충분히 공정한가? 자신의 견해를 정당화하고 상대의 주장을 반박하기 위해 사실을 왜곡하고 있지는 않은가?
