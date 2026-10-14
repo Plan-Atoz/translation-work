@@ -10,14 +10,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const preview = document.createElement("span");
     preview.className = "footnote-preview";
-    preview.textContent = `[${link.textContent.trim()}] (${content})`;
+
+    preview.append("[");
+    const numberLink = document.createElement("a");
+    numberLink.href = link.getAttribute("href");
+    numberLink.textContent = link.textContent.trim();
+    preview.append(numberLink, "] ", document.createTextNode(`(${content})`));
+
     link.parentElement.appendChild(preview);
     link.parentElement.classList.add("has-footnote-preview");
 
     const show = () => preview.classList.add("is-visible");
     const hide = () => preview.classList.remove("is-visible");
-    link.addEventListener("mouseenter", show);
-    link.addEventListener("mouseleave", hide);
+    link.parentElement.addEventListener("mouseenter", show);
+    link.parentElement.addEventListener("mouseleave", hide);
     link.addEventListener("focus", show);
     link.addEventListener("blur", hide);
   });
