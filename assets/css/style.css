@@ -82,6 +82,28 @@ a:hover { text-decoration: underline; }
 .markdown-body sup[id^="fnref"] a.footnote::before { content: "["; }
 .markdown-body sup[id^="fnref"] a.footnote::after { content: "]"; }
 .markdown-body .footnotes { scroll-margin-top: 1rem; }
+.markdown-body .has-footnote-preview { position: relative; }
+.markdown-body .footnote-preview {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 1.25em;
+  width: max-content;
+  max-width: min( min(520px, 80vw), 520px);
+  padding: 0.65rem 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--text);
+  box-shadow: 0 4px 14px rgb(0 0 0 / 12%);
+  font-size: 13px;
+  line-height: 1.55;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  pointer-events: none;
+}
+.markdown-body .footnote-preview.is-visible { display: block; }
 
 .markdown-body h1, .markdown-body h2, .markdown-body h3,
 .markdown-body h4, .markdown-body h5, .markdown-body h6 {
