@@ -1,2 +1,3 @@
 # translation-work
-by 플랜에이투지
+
+Peter Arshinov - History of the Makhnovist Movement (1918–1921)
