@@ -243,6 +243,7 @@ pre code { padding: 0; background: transparent; }
 .markdown-body em .quote-punctuation,
 .markdown-body strong em .quote-punctuation {
   font-style: normal !important;
-  font-family: Arial, "Noto Sans KR", sans-serif !important;
+  font-family: monospace !important;
+  font-weight: 400 !important;
   transform: none !important;
 }
