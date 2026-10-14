@@ -7,5 +7,5 @@ permalink: /translation/
 
 [← 번역 프로젝트 홈]({{ '/' | relative_url }})
 
-{% capture translation_content %}{% include_relative arshinov/makhno-movement/History of the Makhnovist Movement (Korean).md %}{% endcapture %}
+{% capture translation_content %}{% include_relative "arshinov/makhno-movement/History of the Makhnovist Movement (Korean).md" %}{% endcapture %}
 {{ translation_content | markdownify }}
