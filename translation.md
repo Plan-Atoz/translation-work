@@ -5,7 +5,4 @@ description: "Peter Arshinov, History of the Makhnovist Movement (1918–1921) �
 permalink: /translation/
 ---
 
-[← 번역 프로젝트 홈]({{ '/' | relative_url }})
-
-{% capture translation_content %}{% include_relative "arshinov/makhno-movement/History of the Makhnovist Movement (Korean).md" %}{% endcapture %}
-{{ translation_content | markdownify }}
+이 페이지는 GitHub Actions에서 원본 Markdown 번역 파일을 불러와 생성합니다.
