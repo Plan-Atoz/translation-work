@@ -1,3 +1,10 @@
+---
+layout: default
+title: "마흐노주의자 운동의 역사"
+description: "Peter Arshinov, History of the Makhnovist Movement (1918–1921) 한국어 번역"
+permalink: /translation/
+---
+
 *마흐노 운동사 원어가 아닌 영어 역본을 번역한 것입니다.*
 *로레인 & 프레디 펄먼 부부에게 감사드립니다.*
 
