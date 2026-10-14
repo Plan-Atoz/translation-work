@@ -2,7 +2,7 @@
 *로레인 & 프레디 펄먼 부부에게 감사드립니다.*
 
 > ***Arshinov P.A.—History of the Makhnovist Movement (1918–1921)***
-> # 마흐노주의 운동의 역사
+> # 마흐노주의자 운동의 역사
 
 #### 목차
 [1.](#section-1) 볼린의 서문.  
