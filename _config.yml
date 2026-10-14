@@ -1,0 +1,15 @@
+title: "Peter Arshinov — History of the Makhnovist Movement"
+description: "한국어 번역본"
+url: "https://plana2z.github.io"
+baseurl: "/translation-work"
+
+markdown: kramdown
+permalink: pretty
+
+kramdown:
+  footnote_nr: 1
+  footnote_backlink: "↩"
+  footnote_backlink_inline: true
+
+exclude:
+  - README.md
