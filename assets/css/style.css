@@ -77,7 +77,7 @@ a:hover { text-decoration: underline; }
 .markdown-body .footnote { font-size: 0.74em; }
 .markdown-body sup[id^="fnref"] { font-size: 1em; }
 .markdown-body sup[id^="fnref"] a.footnote {
-  font-size: 0.95em;
+  font-size: 0.85em;
 }
 .markdown-body sup[id^="fnref"] a.footnote::before { content: "["; }
 .markdown-body sup[id^="fnref"] a.footnote::after { content: "]"; }
@@ -97,8 +97,8 @@ a:hover { text-decoration: underline; }
   background: #fff;
   color: var(--text);
   box-shadow: 0 4px 14px rgb(0 0 0 / 12%);
-  font-size: 13px;
-  line-height: 1.55;
+  font-size: 14px;
+  line-height: 1.6;
   white-space: normal;
   overflow-wrap: anywhere;
 }
