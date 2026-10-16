@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "translation-work — 한국어 번역"
-description: "by PLAN A-Z 플랜에이투지"
+description: "by lubb (rubchinskiy)"
 ---
 
 ## 번역본
