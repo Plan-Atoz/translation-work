@@ -11,10 +11,10 @@ permalink: /translation/
 > ***Arshinov P.A.—History of the Makhnovist Movement (1918–1921)***
 > # 마흐노주의자 운동의 역사
 
-#### 목차
+### 목차
 [1.](#section-0) 볼린의 서문  
-[2.](#section-1) 저자의 서문
-[3.](#section-2) 제1장 러시아 혁명에서의 민주주의와 노동 대중 *(작성 중...)*
+[2.](#section-1) 저자의 서문  
+[3.](#section-2) 제1장 러시아 혁명에서의 민주주의와 노동 대중 *(작성 중...)* 
 ...
 
 ## <a id="section-0">1.</a> 볼린의 서문
